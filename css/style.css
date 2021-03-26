@@ -109,6 +109,7 @@ body {
   min-width: 100%;
 }
 .main__img {
+  max-width: 100%;
   min-width: inherit;
   height: 500px;
   object-fit: cover;
@@ -375,7 +376,7 @@ body {
     display: flex;
     flex-direction: column;
     height: inherit;
-    margin: 0 40px;
+    /* margin: 0 40px; */
   }
 }
 @media (max-width: 900px) {
