@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   /* first-colors */
   --first-color: #0061bd;
   --second-color: #029ded;
-  --third-color: #1b1725;
-  --fourth-color: #003352;
+  --third-color: #0c0a20;
+  --fourth-color: #161131;
 
   /* second-colors */
   --negative-color: #ff0035;
@@ -29,18 +29,19 @@
   --white-color: #fff;
 
   /* brackground */
-  --background-color-1: #1b1725;
-  --background-color-2: #1c2833;
+  --background-color-1: #0c0a20;
+  --background-color-2: #161131;
+  --background-color-3: #f5f5f5;
 
-  /*Chat */
+  /*chat */
   --telegram: #1e96c8;
   --whatsapp: #34ba47;
 
   /* fonts */
   /* Principal text */
-  --first-font: "Roboto", sans-serif;
+  --first-font: "Raleway", sans-serif;
   /* Titles */
-  --second-font: "Raleway", sans-serif;
+  --second-font: "Merriweather Sans", sans-serif;
   /* Special text - serif */
   --third-font: "Merriweather", serif;
 }
@@ -49,7 +50,9 @@
 * {
   margin: 0;
   text-decoration: none;
+  font-family: var(--first-font);
 }
+
 /* font-size: 16px; */
 /*rem = 10px */
 html {
@@ -60,17 +63,41 @@ html {
 /*em = 10px */
 body {
   font-size: 62.5%;
+  margin: 0;
+  background: var(--background-color-2);
 }
 
-/* GENERALS */
-* {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+/* GENERAL */
+.main-h1 {
+  font-family: var(--second-font);
+  font-size: 2rem;
+  color: var(--second-color);
+}
+.h1 {
+  font-family: var(--second-font);
+  font-size: 2.8rem;
+  color: var(--gray-10-color);
+}
+.h2 {
+}
+.h3 {
+}
+.h4 {
+  font-family: var(--second-font);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--second-color);
+}
+.h5 {
+}
+.h6 {
 }
 
-body {
-  background: #fff;
-  margin: 0;
+/* text */
+.text-bold {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--second-color);
 }
 
 /* HEADER */
@@ -121,16 +148,95 @@ body {
 }
 .under-construction__text-1 {
   font-size: 3rem;
-  color: var(--fourth-color);
+  color: var(--second-color);
 }
 .under-construction__text-2 {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: var(--fourth-color);
+  color: var(--gray-13-color);
 }
 .under-construction__h1 {
   font-size: 2rem;
   color: var(--second-color);
+}
+
+/* ABOUT */
+.about {
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 5%;
+  background: var(--gray-13-color);
+}
+.about__main-title {
+  margin: auto;
+  text-align: center;
+  color: var(--first-color);
+  margin-bottom: 20px;
+}
+.about__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about__products {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.about__products-text-2 {
+  margin-top: 10px;
+}
+.about__products-items-1 {
+  grid-area: about__products-items-1;
+  margin-right: 40px;
+}
+
+.about__products-text-1,
+.about__products-text-2,
+.about__services-text {
+  font-size: 1.4rem;
+  color: var(--first-color);
+  margin-bottom: 10px;
+}
+.about__container-items {
+  display: flex;
+  justify-content: space-between;
+}
+.about__products-item,
+.about__services-item {
+  color: var(--first-color);
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+}
+.about__products-item:hover,
+.about__services-item:hover {
+  color: var(--second-color);
+}
+.about__services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__products-items-1,
+.about__products-items-2,
+.about__services-items {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+}
+
+.about__button {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--gray-13-color);
+  background: var(--first-color);
+  padding: 10px 20px;
+  border-radius: 3px;
 }
 
 /* GENERALS */
