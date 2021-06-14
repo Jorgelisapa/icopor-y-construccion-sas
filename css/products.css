@@ -36,6 +36,9 @@
   height: 200px;
   border-radius: 3px 3px 0 0;
 }
+.product__title {
+  text-align: center;
+}
 .product__card-details {
   margin: 0 10px;
 }

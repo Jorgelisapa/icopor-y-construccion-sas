@@ -76,16 +76,20 @@ body {
 .h1 {
   font-family: var(--second-font);
   font-size: 2.8rem;
-  color: var(--gray-10-color);
+  color: var(--gray-13-color);
 }
 .h2 {
   font-family: var(--second-font);
   font-size: 2.4rem;
   font-weight: 700;
-  color: var(--gray-10-color);
-  text-align: center;
+  color: var(--gray-11-color);
 }
 .h3 {
+  font-family: var(--second-font);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--gray-11-color);
+  /*   text-align: center; */
 }
 .h4 {
   font-family: var(--second-font);
@@ -100,7 +104,8 @@ body {
 
 /* text */
 .text-4 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: 500;
   color: var(--gray-10-color);
 }
 .text-4-bold {
