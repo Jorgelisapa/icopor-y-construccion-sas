@@ -193,6 +193,25 @@ body {
   color: var(--second-color);
 }
 
+/* environment */
+.environment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.environment__img {
+  width: 400px;
+}
+.environment__text {
+  width: 55%;
+  margin-left: 40px;
+}
+
+/* environment */
+
 /* ABOUT */
 .about {
   max-width: 100%;
