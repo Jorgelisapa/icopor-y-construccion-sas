@@ -4,7 +4,7 @@
   margin: auto;
 }
 .items__title {
-  margin-top: 50px;
+  padding-top: 140px;
 }
 .items__description {
   max-width: 70%;
@@ -22,12 +22,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 40px;
 }
 .item__card {
   display: flex;
   flex-direction: column;
   width: 250px;
-  margin: 10px;
+  margin: 15px;
   border-radius: 3px;
   background: var(--background-color-1);
 }
@@ -35,6 +36,7 @@
   width: inherit;
   height: 200px;
   border-radius: 3px 3px 0 0;
+  object-fit: cover;
 }
 .item__title {
   text-align: center;
