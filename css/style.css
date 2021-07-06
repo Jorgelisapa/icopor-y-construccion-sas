@@ -205,6 +205,11 @@ body {
 .environment__img {
   width: 400px;
 }
+
+.environment__text-bold {
+  margin-bottom: 15px;
+}
+
 .environment__text {
   width: 55%;
   margin-left: 40px;
@@ -597,6 +602,18 @@ body {
     font-size: 56.25%;
   }
 }
+@media (max-width: 870px) {
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about__products,
+  .about__services {
+    margin-bottom: 30px;
+  }
+}
 
 @media (max-width: 750px) {
   /*   html {
@@ -609,6 +626,22 @@ body {
     font-size: 1.8rem;
     margin: 5px;
   }
+  /* environment */
+  .environment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .environment__img {
+    width: 95%;
+  }
+  .environment__text {
+    width: 95%;
+    margin-left: 0;
+  }
+
+  /* environment */
   .footer__container {
     display: grid;
     grid-gap: 20px;
