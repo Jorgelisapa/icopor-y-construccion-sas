@@ -506,23 +506,27 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 200px;
+  width: 320px;
   padding: 1px;
   left: 0;
   top: 0;
-  margin-right: 10px;
+  margin-left: 0;
   margin-top: 99px;
 }
 .phone__number {
   background: rgb(235, 227, 3);
-  padding: 5px 10px;
+  padding: 1px 10px 3px;
   border-radius: 0 0 5px 5px;
   color: var(--gray-1-color);
   font-size: 2rem;
   margin-bottom: 250px;
 }
 .fa-phone-alt {
-  margin-right: 10px;
+  margin-left: 20px;
+}
+.fa-phone-alt,
+.fa-mobile-alt {
+  margin-right: 5px;
   color: var(--second-color);
 }
 
